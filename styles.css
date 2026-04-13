@@ -74,6 +74,25 @@ section h2 {
   padding-bottom: 10px;
 }
 
+/* Catálogo */
+#catalogo ul {
+  list-style: none;
+  padding: 0;
+}
+
+#catalogo li {
+  margin-bottom: 18px;
+  padding: 30px;
+  background-color: #e7e67e;
+  color: #967d0c;
+  border-left: 4px solid #642f04;
+  border-radius: 6px;
+}
+
+#catalogo li:last-child {
+  margin-bottom: 0;
+}
+
 /* Footer */
 footer {
   background-color: #333;
